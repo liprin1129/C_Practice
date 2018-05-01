@@ -1,7 +1,7 @@
 LIBS=-lafcpu
 LIB_PATHS=-L/usr/lib
 INCLUDES=-I/usr/include
-CXX=clang++ $(COMPILER_OPTIONS)
+CXX=g++ $(COMPILER_OPTIONS)
 COMPILER_OPTIONS=-std=c++11
 TARGET = main
 
